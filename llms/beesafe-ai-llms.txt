@@ -1,0 +1,14 @@
+# Beesafe AI
+
+> Beesafe AI is a fraud-prevention and anti-scam platform — "Stopping Scams Before They Reach Your Customers." Its AI-powered anti-scam agents proactively engage scammers to uncover the fraudulent accounts, money-mule networks, and criminal financial infrastructure behind trust-based scams (romance scams, pig-butchering, investment fraud). It serves financial-services, cryptocurrency, telecommunications, and government customers. Backed by Y Combinator, Obvious Ventures, and SBIR/STTR. Currently early access with no public self-service API.
+
+## Company
+- [Website](https://beesafe.ai)
+- [Privacy Policy](https://beesafe.ai/privacy)
+- [Contact](mailto:founders@beesafe.ai)
+
+## APIs
+- No public API, developer documentation, or OpenAPI is published at this time. Access is via "Request Early Platform Access" on the website.
+
+## APIs.json
+- [Beesafe AI apis.yml](https://raw.githubusercontent.com/api-evangelist/beesafe-ai/refs/heads/main/apis.yml)

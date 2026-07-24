@@ -1,22 +1,69 @@
 aid: beesafe-ai
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/beesafe-ai.png
 name: Beesafe Ai
-description: Beesafe Ai is a company surfaced as a portfolio company of y-combinator and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Beesafe AI is a fraud-prevention and anti-scam platform whose tagline is
+  "Stopping Scams Before They Reach Your Customers." Its AI-powered anti-scam
+  agents proactively engage scammers to uncover the fraudulent accounts,
+  money-mule networks, and criminal financial infrastructure behind trust-based
+  scams such as romance scams, pig-butchering, and investment fraud, which
+  bypass traditional detection by convincing victims to authorize transactions
+  themselves. Beesafe serves financial-services firms, cryptocurrency companies,
+  telecommunications providers, and government agencies. It was founded by AI and
+  security PhDs from Carnegie Mellon and UC San Diego and is backed by Y
+  Combinator, Obvious Ventures, and SBIR/STTR funding. The platform is currently
+  in early access with no public self-service API, developer documentation, or
+  pricing published.
 url: https://raw.githubusercontent.com/api-evangelist/beesafe-ai/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - y-combinator
+- obvious-ventures
+- sbir-sttr
 x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Fraud Prevention
+- Anti-Scam
+- Fraud Detection
+- Security
+- Artificial Intelligence
+- Financial Services
 apis: []
+common:
+- type: DomainSecurity
+  url: security/beesafe-ai-domain-security.yml
+- type: Website
+  url: https://beesafe.ai
+- type: PrivacyPolicy
+  url: https://beesafe.ai/privacy
+- type: Support
+  url: mailto:founders@beesafe.ai
+- type: LLMsTxt
+  url: llms/beesafe-ai-llms.txt
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
