@@ -52,10 +52,9 @@ tags:
 - Company
 - Fraud Prevention
 - Anti-Scam
-- Fraud Detection
 - Security
 - Artificial Intelligence
-- Financial-Services
+- Financial Services
 tags_raw:
 - Company
 - Fraud Prevention
@@ -64,6 +63,7 @@ tags_raw:
 - Security
 - Artificial Intelligence
 - Financial Services
+- Financial-Services
 apis: []
 common:
 - type: DomainSecurity
